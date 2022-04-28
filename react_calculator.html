@@ -16,6 +16,14 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     
     <!-- Load our React component. -->
-    <script src="src/index.js"></script>
+    <script src="src/App.js">
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(
+                <React.StrictMode>
+                    <App />
+                </React.StrictMode>
+            );
+    </script>
 </body>
 </html>
